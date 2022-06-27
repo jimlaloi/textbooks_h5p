@@ -1,1 +1,1 @@
-# generated from LanceRoe/h5p-selfhost-example
+generated from github.com/LanceRoe/h5p-selfhost-example
