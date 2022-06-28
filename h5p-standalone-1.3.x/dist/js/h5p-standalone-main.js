@@ -9258,7 +9258,7 @@ function _arrayWithHoles(arr) {
       copyrights: "Rights of use",
       copyrightsDescription: "View copyright information for this content.",
       disableFullscreen: "Disable fullscreen",
-      download: "Download",
+      download: "Downloadtesting",
       downloadDescription: "Download this content as a H5P file.",
       embed: "Embed",
       embedDescription: "View the embed code for this content.",
@@ -10380,7 +10380,7 @@ H5P.init = function (target) {
 
       var actionBar = new H5P.ActionBar(displayOptions);
       var $actions = actionBar.getDOMElement();
-      actionBar.on('downloadtesting', function () {
+      actionBar.on('download', function () {
         window.location.href = contentData.exportUrl;
         instance.triggerXAPI('downloaded');
       });
