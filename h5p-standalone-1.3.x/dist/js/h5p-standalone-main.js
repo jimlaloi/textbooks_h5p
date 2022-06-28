@@ -9434,7 +9434,7 @@ function _arrayWithHoles(arr) {
     var _displayOptions$copyr = displayOptions.copyright;
     displayOptions.copyright = _displayOptions$copyr === void 0 ? true : _displayOptions$copyr;
     var _displayOptions$embed = displayOptions.embed;
-    displayOptions.embed = _displayOptions$embed === void 0 ? false : _displayOptions$embed;
+    displayOptions.embed = _displayOptions$embed === void 0 ? true : _displayOptions$embed;
     var _displayOptions$downl = displayOptions.download;
     displayOptions.download = _displayOptions$downl === void 0 ? true : _displayOptions$downl;
     var _displayOptions$icon = displayOptions.icon;
