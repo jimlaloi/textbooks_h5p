@@ -9259,7 +9259,7 @@ function _arrayWithHoles(arr) {
       copyrightsDescription: "View copyright information for this content.",
       disableFullscreen: "Disable fullscreen",
       download: "Download",
-      downloadDescription: "Download this content as a H5P file. testing",
+      downloadDescription: "Download this content as a H5P file.",
       embed: "Embed",
       embedDescription: "View the embed code for this content.",
       fullscreen: "Fullscreen",
