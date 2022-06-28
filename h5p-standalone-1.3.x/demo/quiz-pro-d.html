@@ -10,7 +10,15 @@
         $('.h5p-container').h5p({
           frameJs: '../dist/js/h5p-standalone-frame.min.js',
           frameCss: '../dist/styles/h5p.css',
-          h5pContent: '../workspace/quiz-pro-d' <!-- Name of specific H5P content folder goes here -->
+          h5pContent: '../workspace/quiz-pro-d',
+          displayOptions: { // OPTIONAL hide the frame or download, export etc. buttons they are visible by default
+            frame: true,
+            copyright: true,
+            embed: false,
+            download: false,
+            icon: true,
+            export: false
+          }
         });
       });
     })(H5P.jQuery);
